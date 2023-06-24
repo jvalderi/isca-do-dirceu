@@ -1,0 +1,73 @@
+
+header{
+    background-image: url("plano-de-fundo.png");
+    background-repeat: no-repeat;
+    padding-bottom: 11px;
+}
+
+@font-face {
+    font-family: almendra;
+    src: url("Almendra-Regular.ttf");
+}
+
+.logo{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+}
+.nome{
+            position: relative;
+            display: inline-block;
+            left: 202px;
+        }
+        
+.nome img{
+            width: 168px;
+        }
+main{
+    box-shadow: 0 -12px 12px black;
+    padding-top: 33px;
+    font-family: 'Almendra';
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 34px;
+    row-gap: 150px;
+}
+
+.produto{
+    text-align: center;
+}
+
+.nome-produto{
+    background-color: white;
+    position: relative;
+    bottom: 44px;
+    margin: 0 1px;
+    height: 39px;
+}
+
+.nome-produto p{
+    font-size: 30px;
+}
+
+.retangulo{
+    height: 37px;
+    background-color: #D9D9D9;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 2px;
+    bottom: 43px;
+}
+
+.retangulo p{
+    font-size: 30px;
+}
+
+footer{
+    background-color: #230D0D;
+    
+}
