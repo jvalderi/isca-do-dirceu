@@ -19,11 +19,12 @@ header{
             position: relative;
             display: inline-block;
             left: 202px;
-        }
+}
         
 .nome img{
             width: 168px;
-        }
+}
+
 main{
     box-shadow: 0 -12px 25px black;
     padding-top: 33px;
@@ -40,6 +41,20 @@ main{
 
 .produto{
     text-align: center;
+}
+
+.produto:hover{
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+
+.produto:active{
+    cursor: progress;
+}
+
+.produto img{
+    border: 1px solid black;
 }
 
 .nome-produto{
@@ -83,6 +98,6 @@ footer{
     margin-bottom: 50px;
 }
 
-.contatos p, img{
+.contatos p{
     margin-top: 10px;
 }
