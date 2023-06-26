@@ -3,6 +3,7 @@ header{
     background-image: url("plano-de-fundo.png");
     background-repeat: no-repeat;
     padding-bottom: 11px;
+    background-size: 100%;
 }
 
 @font-face {
@@ -13,12 +14,12 @@ header{
 .logo{
     display: inline-block;
     position: relative;
-    left: 500px;
+    left: 41%%;
 }
 .nome{
-            position: relative;
-            display: inline-block;
-            left: 202px;
+    position: relative;
+    display: inline-block;
+    left: 25%;
 }
         
 .nome img{
@@ -93,7 +94,7 @@ footer{
     grid-template-columns: auto auto auto auto;
     column-gap: 104px;
     position: relative;
-    left: 225px;
+    left: 28%;
     margin-top: 10px;
     margin-bottom: 50px;
 }
